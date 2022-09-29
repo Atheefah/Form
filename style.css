@@ -1,0 +1,179 @@
+form{
+    font-size:5rem;
+    margin: 10rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+input{
+    height:4rem;
+    width:18rem;
+}
+input,
+input::placeholder{
+    font-size:2rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input text{
+    font-size: 2rem;
+}
+button{
+    border-radius: 1rem;
+    font-size: 2rem;
+    border-style: none;
+    background-color: azure;
+    color:black;
+padding:0.7rem;
+}
+button:hover{
+  transform:scale(3,2);  
+}
+h1{
+    color:blueviolet;
+    font-size: 5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-style:inherit;
+}
+body{
+    background-image: url("download1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1.5rem;
+    text-align:justify;
+}
+#checkbox{
+    width:3rem;
+    height: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 0em;
+}
+#gender{
+    width: 17rem;
+    height:5rem;
+    font-size: 1.5rem;
+    margin-right: 18rem;
+}
+#size{
+    width:15rem;
+    height:3rem;
+    margin-bottom: 1rem;
+    margin-top: 0em;
+}
+#color{
+    width:8rem;
+    height:2rem;
+    margin-top: 3rem;
+    margin-bottom: 0cm;
+    padding-top: 0ch;
+}
+
+
+
+@media(min-width:371px) and (max-width:540px){
+    form{
+        font-size:2rem;
+        margin: 8rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    input{
+        height:6rem;
+        width:8rem;
+    }
+    input text{
+        font-size: 2rem;
+    }
+    #checkbox{
+        width:2rem;
+        height: 2rem;
+    }
+    #gender{
+        width: 14rem;
+        height:5rem;
+        font-size: 1.5rem;
+        margin-right: 13rem;
+    }
+    #size{
+        width:10rem;
+        height:3rem;
+    }
+    #color{
+        width:8rem;
+        height:2rem;
+    }
+        
+    }
+    body{background-image: url("download1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    @media(min-width:280px) and (max-width:370px){
+        form{
+            font-size:2rem;
+            margin: 5rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        input{
+            height:3rem;
+            width:8rem;
+        }
+        input text{
+            font-size: 2rem;
+        }
+        #checkbox{
+            width:1.5rem;
+            height: 1.5rem;
+        }
+        #gender{
+            width: 10rem;
+            height:3rem;
+            font-size: 1.5rem;
+            margin-right: 10rem;
+        }
+        #size{
+            width:10rem;
+            height:3rem;
+        }
+        #color{
+            width:8rem;
+            height:2rem;
+        }
+            
+        }
+        body{background-image: url("download1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+@media(min-width:768px) and (max-width:1200px){
+   
+    form{
+        font-size:5rem;
+        margin: 10rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    input{
+        height:3rem;
+        width:15rem;
+    }
+    input text{
+        font-size: 2rem;
+    }
+    button{
+        border-radius: 1rem;
+        font-size: 2rem;
+        border-style: none;
+        background-color: azure;
+        color:black;
+    padding:0.7rem;
+    }
+    button:hover{
+      transform:scale(3,2);  
+    }
+}
+
